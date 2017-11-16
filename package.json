@@ -1,6 +1,6 @@
 {
   "name": "vt-dialog",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "vue-dialog",
   "main": "dist/index.vue",
   "devDependencies": {

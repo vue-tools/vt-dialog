@@ -88,7 +88,7 @@
                 if (!this.moveable) {
                     return
                 }
-                if (e.target.className.indexOf("vt-dialog__header") > -1 && this.moveEnabled) {
+                if (typeof e.target.className == "string" && e.target.className.indexOf("vt-dialog__header") > -1 && this.moveEnabled) {
                     this.pos.top = `${(e.clientY - this.mouse.y + this.mouse.top)}px`
                     this.pos.left = `${(e.clientX - this.mouse.x + this.mouse.left)}px`
                 }
