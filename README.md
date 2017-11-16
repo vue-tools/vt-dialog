@@ -20,7 +20,7 @@ $ npm install vt-dialog --save
 *   `closable` bool类型，控制弹窗右上角是否显示关闭按钮，默认 `true`
 *   `moveable` bool类型，控制弹窗是否可以拖动，默认 `true` 
 
-### Eent 
+### Event 
 *   `close` 当弹窗关闭时所触发的事件
 
 ### Slot 
